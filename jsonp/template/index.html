@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>js跨域问题-jsonp</title>
+    <!--JSONP方式 JSON with Padding:可以理解为内填充-->
+    <!--1.首先定义一个函数用来处理返回的函数-->
+    <script type="text/javascript">
+        function fn(data) {
+            console.log(data);
+        }
+    </script>
+    <!--2.从服务端加载需要请求的数据,举例请求地址为：http://api.douban.com/book/subjects?q=javascript&alt=xd&callback=fn1  此地址可以修改q进行搜索豆瓣服务器端的图书资源-->
+    <script type="text/javascript" src="http://127.0.0.1:5000/todo/api/v1.0/tasks?callback=fn"></script>
+
+
+</head>
+<body>
+
+</body>
+</html>

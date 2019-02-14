@@ -1,0 +1,9 @@
+2019-01-22 17:00:49,716 - log.py[line:64] - INFO: test info
+2019-01-22 17:00:49,724 - log.py[line:64] - INFO: test info
+2019-01-22 17:00:49,724 - log.py[line:64] - INFO: test info
+2019-01-22 17:00:49,724 - log.py[line:64] - INFO: test info
+2019-01-22 17:00:49,724 - log.py[line:64] - INFO: test info
+2019-01-22 17:00:49,725 - log.py[line:64] - INFO: test info
+2019-01-22 17:00:49,725 - log.py[line:64] - INFO: test info
+2019-01-22 17:00:49,725 - log.py[line:64] - INFO: test info
+2019-01-22 17:00:49,725 - log.py[line:64] - INFO: test info

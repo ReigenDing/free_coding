@@ -1,0 +1,22 @@
+digraph ObjectGraph {
+  node[shape=box, style=filled, fillcolor=white];
+  o44566064[fontcolor=red];
+  o44566064[label="OBJ\n<__main__.OBJ object at 0x0000000002A806"];
+  o44566064[fillcolor="0,0,1"];
+  o206995336 -> o44566064;
+  o206995336[label="list\n1 items"];
+  o206995336[fillcolor="0,0,0.93"];
+  o31151448 -> o206995336 [label="_cache",weight=2];
+  o31151448[label="dict\n13 items"];
+  o31151448[fillcolor="0,0,0.86"];
+  o31147336 -> o31151448 [label="__dict__",weight=10];
+  o35149072 -> o31151448 [label="__globals__",weight=10];
+  o4713832 -> o31151448 [label="f_locals",weight=10];
+  o31147336[label="module\n__main__"];
+  o31147336[fillcolor="0.3,1,0.79"];
+  o35149072[label="function\n<function func_to_leak at 0x000000000218"];
+  o35149072[fillcolor="0,0,0.79"];
+  o31151448 -> o35149072 [label="func_to_leak",weight=2];
+  o4713832[label="frame\nD:/work/AI-NLP/personal/内存管理工具/objgraph_test.py:59"];
+  o4713832[fillcolor="0,0,0.79"];
+}
